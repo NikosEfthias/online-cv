@@ -3,198 +3,169 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Nikos Efthias
+    tagline: Software Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    gitlab:
+    email: nikos@mugsoft.io
+    phone: +995 571 722 000
+    # website: blog.webjeda.com #do not add http://
+    linkedin: nikosefthias
+    github: nikosefthias
+    gitlab: nikosefthias
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    twitter: '@nikosef8ias'
+    stack-overflow: 3553432/nikoss # Number/Username, e.g. 123456/alandoe
+    codewars: NikosEfthias
+    goodreads: nefthias # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
-        level: Native
-
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: Turkish
+      - idiom: Russian
+      - idiom: Greek
 
     interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+      - item: Vim (I am a Vim ninja)
+      - item: Wire protocols (I find low level binary communication fascinating)
+      - item: 3d modelling (blender)
+      - item: Distributed systems
+      - item: Load balancing
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      I started working on web technologies using php. After a while I started using nodejs and mongodb.<br>
+      During this period I really enjoyed nosql
+      I got both mongodb for dbas and mongodb for programmers certifications.
+      I developed various project on nodejs including a bingo-like game
+      for one of my previous employers.<br>
+      This is when I really started to be interested in distributed systems and efficient message passing and binary protocols.
 
-      Second paragraph if required.
+      After some time especially trying to deal with binary data nodejs wasn't just enough for me (also the single threaded event loop is cool yes but limiting and makes it really hard to follow the code. Also the callback hell is a real thing.) and I was in a search and finally I met golang.<br>
+      In most ways golang is a dream-came-true for me. Meanwhile I learned C and coded a lot of C, learned about memory management and all sort of buffer related things. C is particularly good in such things for learning because in go, the code we write is relatively safer and you cannot really learn without cutting yourself with sharp edges I believe.
+
+      So as a summary currently I'm writing golang professionally and I do experiments with rust, elm and haskell. I use docker everywhere from unified build environments to testing environments. I love mongodb and I believe lots of things can be migrated mongodb from SQL databases and this often improves the speed( of course with right strategy)
+
+      I also mentor fellow programmers on hackhands.com, codementor.io and pluralsight.com. So In daily basis I see a lot of bugs and mistakes and help fix and improve code quality.
+      
+      Lastly, I love Vim. I live inside of tmux and Vim generally.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+    - degree: Bachelor in Computer Science
+      university: Istanbul University
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Co-Founder/CTO
+      company: Vida.events
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Developing a unique event planning app where users can organize events and invitees can vote and decide on the date, split the costs and pay through the app.
+        In vida, I mixed my golang knowledge with the functional paradigm I learned and adored from haskell and the result was amazing the resulting go code was super readable super modular and really distributable because unlike objects functions are stateless and they don't care whether they are running on different cores or even different machines over different continents.
 
-          - Bullet point
-          - Bullet point
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Founder/CTO 
+      company: MugSoft LTD.
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Based on my previous experience and success in the casino games market I established my own company in Georgia to deliver high quality game services for casinos.
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Lead Golang Developer
+      company: Ekolbet
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Developing multi-container micro service based game organizer and scheduler for casino games
 
-          - Bullet point
-          - Bullet point
+    - role: Node.js Developer
+      company: Tombalalive
+      details: |
+        Maintaining and developing existing express api as well as the game itself
+
+
+        
 
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Storage Driver
+        link: "https://github.com/NikosEfthias/storageDriver"
+        tagline: "Plug'n play storage driver with unified api (still in development)"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: My Vimrc configuration 
+        link: "https://github.com/NikosEfthias/dotfiles"
+        tagline: "This is where I spend a lot of time. To make Vim and terminal feel more like home after every commit"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: LinuxSysMonitor
+        link: "https://github.com/NikosEfthias/linuxSysMonitor"
+        tagline: "A system monitor for GNU/Linux that heavily relies on /proc file-system"
 
       - title: Atom
         link: "#"
         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#
+#     papers:
+#       - title: The Art of Computer Programming
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+#
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#
+#       - title: A syntax directed compiler for Algol 60
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Golang
+        level: 100%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Javascript & Node.js
+        level: 100%
 
-      - name: Angular
-        level: 98%
+      - name: Docker
+        level: 100%
+
+      - name: TDD
+        level: 100%
+
+      - name: MongoDB
+        level: 100%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 80%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: MySql
+        level: 80%
 
-      - name: Sketch & Photoshop
+      - name: bash scripting
+        level: 80%
+
+      - name: Ubuntu
+        level: 80%
+
+      - name: C
+        level: 70%
+
+      - name: Haskell
         level: 60%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: VimL
+        level: 60%
+
+      - name: Rust
+        level: 40%
+
+      - name: ELM
+        level: 30%

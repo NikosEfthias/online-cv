@@ -99,9 +99,9 @@ projects:
         link: "https://github.com/NikosEfthias/linuxSysMonitor"
         tagline: "A system monitor for GNU/Linux that heavily relies on /proc file-system"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Vida
+        link: "https://vida.events"
+        tagline: "A meeting organizer app that has everything you have dreamed of"
 
 
 # publications:

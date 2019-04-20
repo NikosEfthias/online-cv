@@ -25,9 +25,9 @@ sidebar:
 
     languages:
       - idiom: English
-      - idiom: Turkish
       - idiom: Russian
       - idiom: Greek
+      - idiom: Turkish
 
     interests:
       - item: Vim (I am a Vim ninja)
@@ -143,10 +143,16 @@ skills:
       - name: MongoDB
         level: 100%
 
+      - name: Rust
+        level: 90%
+
       - name: HTML5 & CSS
         level: 80%
 
       - name: MySql
+        level: 80%
+
+      - name: ELM
         level: 80%
 
       - name: bash scripting
@@ -164,8 +170,4 @@ skills:
       - name: VimL
         level: 60%
 
-      - name: Rust
-        level: 40%
 
-      - name: ELM
-        level: 30%

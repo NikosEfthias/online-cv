@@ -60,12 +60,6 @@ education:
       university: Istanbul University
 
 experiences:
-    - role: Co-Founder/CTO
-      company: Vida.events
-      details: |
-        Developing a unique event planning app where users can organize events and invitees can vote and decide on the date, split the costs and pay through the app.
-        In vida, I mixed my golang knowledge with the functional paradigm I learned and adored from haskell and the result was amazing the resulting go code was super readable super modular and really distributable because unlike objects functions are stateless and they don't care whether they are running on different cores or even different machines over different continents.
-
     - role: Founder/CTO 
       company: MugSoft LTD.
       details: |
@@ -87,11 +81,31 @@ experiences:
 projects:
     title: Projects
     assignments:
-      - title: Storage Driver
+      - title: "Limit Tracker"
+        link: "https://github.com/NikosEfthias/limittracker"
+        tagline: "A very small,thread safe and compact multi purpose limit tracking library."
+
+      - title: "http-stream"
+        link: "https://crates.io/crates/http-stream"
+        tagline: "A thread-safe Server Sent Events compatible server written in Rust"
+
+      - title: "PayPal Api Wrapper in Rust"
+        link: "https://crates.io/crates/paypal"
+        tagline: "A very early alpha level rust wrapper for the PayPal API"
+
+      - title:"Storage Driver"
         link: "https://github.com/NikosEfthias/storageDriver"
         tagline: "Plug'n play storage driver with unified api (still in development)"
 
-      - title: My Vimrc configuration 
+      - title: "Workerpool for golang" 
+        link: "https://github.com/NikosEfthias/workerpool"
+        tagline: "A goroutine pool for golang to limit concurrent jobs running at a given time"
+
+      - title: "Multipart downloader in go" 
+        link: "https://github.com/NikosEfthias/go-multipart-downloader"
+        tagline: "Simple proof of concept multipart downloader written in go"
+
+      - title: "My Vimrc configuration" 
         link: "https://github.com/NikosEfthias/dotfiles"
         tagline: "This is where I spend a lot of time. To make Vim and terminal feel more like home after every commit"
 

@@ -1,14 +1,14 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
-
+---
 sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Nikos Efthias
     tagline: Software Engineer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.png  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: nikos@mugsoft.io
@@ -44,17 +44,19 @@ career-profile:
       I got both mongodb for dbas and mongodb for programmers certifications.
       I developed various project on nodejs including a bingo-like game
       for one of my previous employers.<br>
-      This is when I really started to be interested in distributed systems and efficient message passing and binary protocols.
+      This is when I really started to be interested in distributed systems and efficient message passing and binary protocols.<br>
+      Around 3 years ago golang really started to get my attention.<br>
+      Having an event loop and async io is really nice but if you are only limited to that the design of your code goes out of control pretty quicly.<br>
+      I don't mean node.js is a bad technology what I am saying is that it is really hard to coordinate and maintain nodejs systems when they start to grow.<br>
+      So naturally golang was a relief for me it does not support async io out of the box but goroutines made the life pretty easy for me.<br>
+      I really enjoyed golang until I hit the brick wall on one of my projects for a client. I wrote a simple video relay server for bandwidth management <br> 
+      and it was fine until I got the reports of mysterious pauses in the middle of the execution which after quite some debugging and profiling led me to the Garbage collector. <br> 
+      I think I could mostly solve it by reducing the number of the objects created and reusing more stuff but instead I started to implement the thing in the new language I have been experimenting for some time "Rustlang".
+      <br> Of course after I discover the level of confidence, safety and speed rust provides over golang I immediately fell in love with it.
+      <br> <br> Well.. As a summary I use golang and rust professionally in production right now. I am open for both project or job opportunities but not actively seeking one. <br> 
 
-      After some time especially trying to deal with binary data nodejs wasn't just enough for me (also the single threaded event loop is cool yes but limiting and makes it really hard to follow the code. Also the callback hell is a real thing.) and I was in a search and finally I met golang.<br>
-      In most ways golang is a dream-came-true for me. Meanwhile I learned C and coded a lot of C, learned about memory management and all sort of buffer related things. C is particularly good in such things for learning because in go, the code we write is relatively safer and you cannot really learn without cutting yourself with sharp edges I believe.
-
-      So as a summary currently I'm writing golang professionally and I do experiments with rust, elm and haskell. I use docker everywhere from unified build environments to testing environments. I love mongodb and I believe lots of things can be migrated mongodb from SQL databases and this often improves the speed( of course with right strategy)
-
-      I also mentor fellow programmers on hackhands.com, codementor.io and pluralsight.com. So In daily basis I see a lot of bugs and mistakes and help fix and improve code quality.
+      Ps. I also mentor fellow programmers on hackhands.com, codementor.io and pluralsight.com. So In daily basis I see a lot of bugs and mistakes and help fix and improve code quality.
       
-      Lastly, I love Vim. I live inside of tmux and Vim generally.
-
 education:
     - degree: Bachelor in Computer Science
       university: Istanbul University
@@ -93,19 +95,19 @@ projects:
         link: "https://crates.io/crates/paypal"
         tagline: "A very early alpha level rust wrapper for the PayPal API"
 
-      - title:"Storage Driver"
+      - title: "Storage Driver"
         link: "https://github.com/NikosEfthias/storageDriver"
-        tagline: "Plug'n play storage driver with unified api (still in development)"
+        tagline: "Plug'n play storage driver with unified api (still in development)" 
 
-      - title: "Workerpool for golang" 
+      - title: "Workerpool for golang"
         link: "https://github.com/NikosEfthias/workerpool"
         tagline: "A goroutine pool for golang to limit concurrent jobs running at a given time"
 
-      - title: "Multipart downloader in go" 
+      - title: "Multipart downloader in go"
         link: "https://github.com/NikosEfthias/go-multipart-downloader"
         tagline: "Simple proof of concept multipart downloader written in go"
 
-      - title: "My Vimrc configuration" 
+      - title: "My Vimrc configuration"
         link: "https://github.com/NikosEfthias/dotfiles"
         tagline: "This is where I spend a lot of time. To make Vim and terminal feel more like home after every commit"
 
@@ -143,45 +145,31 @@ skills:
 
     toolset:
       - name: Golang
-        level: 100%
+      # level: 100%
 
       - name: Javascript & Node.js
-        level: 100%
 
       - name: Docker
-        level: 100%
 
       - name: TDD
-        level: 100%
 
       - name: MongoDB
-        level: 100%
 
       - name: Rust
-        level: 90%
 
       - name: HTML5 & CSS
-        level: 80%
 
       - name: MySql
-        level: 80%
 
       - name: ELM
-        level: 80%
 
       - name: bash scripting
-        level: 80%
 
-      - name: Ubuntu
-        level: 80%
+      - name: Linux
 
       - name: C
-        level: 70%
 
       - name: Haskell
-        level: 60%
 
       - name: VimL
-        level: 60%
-
 

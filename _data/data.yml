@@ -63,17 +63,17 @@ education:
 
 experiences:
     - role: Founder/CTO 
-      company: MugSoft LTD.
+      company: "MugSoft LTD. | 2018-"
       details: |
         Based on my previous experience and success in the casino games market I established my own company in Georgia to deliver high quality game services for casinos.
 
     - role: Lead Golang Developer
-      company: Ekolbet
+      company: Ekolbet | 2016-2018
       details: |
         Developing multi-container micro service based game organizer and scheduler for casino games
 
     - role: Node.js Developer
-      company: Tombalalive
+      company: Tombalalive | 2015-2016
       details: |
         Maintaining and developing existing express api as well as the game itself
 
@@ -141,11 +141,13 @@ projects:
 #         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills 
 
     toolset:
       - name: Golang
       # level: 100%
+
+      - name: Rust
 
       - name: Javascript & Node.js
 
@@ -155,7 +157,6 @@ skills:
 
       - name: MongoDB
 
-      - name: Rust
 
       - name: HTML5 & CSS
 
